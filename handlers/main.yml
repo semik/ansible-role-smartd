@@ -1,0 +1,4 @@
+---
+# handlers file for syslog
+- name: restart smartmontools
+  service: name=smartmontools state=restarted
